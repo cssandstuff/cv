@@ -1,0 +1,8 @@
+baseurl = "https://cssandstuff.github.io/cv/"
+disableKinds = ["RSS"]
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+languageCode = "en-us"
+theme = "winning"
+title = "CV Tim Clulow"
+[taxonomies]
