@@ -2,7 +2,7 @@
 title: Tim Clulow's CV
 ---
 # Hello,
-I'm a self motivated Front-End UI/UX Developer & Interaction Designer who loves to create. I have 15+ years of experience and feel I would be a great asset to any development or design team. I strive to deliver quality work through focused research and endeavour to be at the edge of emerging technology.
+I'm a Designer who also loves to code, I'm not just making this up, really.
 
 {{% grid %}}
 
