@@ -8,7 +8,11 @@ I'm a self motivated Front-End UI/UX Developer & Interaction Designer who loves 
 
 {{% column -span-cols-6 -m-right-2 %}}
 ## Professional Experience
-###### *May 2015 - Present*
+###### *August 2018 - Present*
+### Bnz — Digital Designer
+
+
+###### *May 2015 - Aug 2018*
 ### Vocus Communications — UI/UX Lead 
 
 Working within an Agile development environment as UI/UX lead for the main application development team at Vocus. Role established UI and component guidelines to ensure the clear direction & alignment of a consistent UI for both marketing and app teams. Worked closely with other dev-team leaders and stakeholders to bring a consistent vision for the applications delivered and used by the wider business. 
