@@ -63,16 +63,15 @@ Worked on iPhone application “Local Sale Finder” I was responsible for Desig
 #### Familiar with
   * Node.js
   * Ractive.js
-  * Riot.Js
+  * Svelte Js (+ Sapper)
   * Hugo.io (Static site generator)
 
 #### Interested in
-  * Web components
-  * Svelte + Sapper
+  * Design systems
   * WebVR / A-Frame
   * Three.js
   * Matter.js
-  
+
 
 #### Other Info
 {{% dd %}}
