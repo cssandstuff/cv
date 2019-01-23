@@ -2,7 +2,7 @@
 title: Tim Clulow's CV
 ---
 # Hello,
-I'm a Designer who also loves to code, I'm not just making this up, really.
+I'm a Designer who happens to enjoy writing CSS, I love to prototype, test & will preach progressive enhancement if given time on a soapbox.
 
 {{% grid %}}
 
