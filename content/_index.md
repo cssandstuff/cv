@@ -2,7 +2,7 @@
 title: Tim Clulow's CV
 ---
 # Hello,
-I'm a self motivated Front-End UI/UX Developer & Interaction Designer who loves to create. I have 15+ years of experience and feel I would be a great asset to any development or design team. I strive to deliver quality work through focused research and endeavour to be at the edge of emerging technology.
+I'm a Designer who happens to enjoy writing CSS, I love to prototype, test & research when solving design problems.
 
 {{% grid %}}
 
@@ -68,16 +68,15 @@ Worked on iPhone application “Local Sale Finder” I was responsible for Desig
 #### Familiar with
   * Node.js
   * Ractive.js
-  * Riot.Js
+  * Svelte Js (+ Sapper)
   * Hugo.io (Static site generator)
 
 #### Interested in
-  * Web components
-  * Svelte + Sapper
+  * Design systems
   * WebVR / A-Frame
   * Three.js
   * Matter.js
-  
+
 
 #### Other Info
 {{% dd %}}
