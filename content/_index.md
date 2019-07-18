@@ -11,7 +11,7 @@ I'm a Designer who happens to enjoy writing CSS, I love to prototype, test & res
 ###### *August 2018 — Present*
 ### Bank of New Zealand — Digital Designer 
 
-* Helped prototype & release a more helpful face for the bank through an online project delivered for the website project called ‘Life Moments’.
+* Prototyped & release a more helpful face for the bank through an online project delivered for the website project called ‘Life Moments’.
 * Ongoing redesign project to reimagine the BNZ www experience.
 
 ###### *May 2015 — August 2018*
