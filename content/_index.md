@@ -8,17 +8,22 @@ I'm a self motivated Front-End UI/UX Developer & Interaction Designer who loves 
 
 {{% column -span-cols-6 -m-right-2 %}}
 ## Professional Experience
-###### *May 2015 - Present*
-### Vocus Communications — UI/UX Lead 
+###### *August 2018 — Present*
+### Bank of New Zealand — Digital Designer 
 
-Working within an Agile development environment as UI/UX lead for the main application development team at Vocus. Role established UI and component guidelines to ensure the clear direction & alignment of a consistent UI for both marketing and app teams. Worked closely with other dev-team leaders and stakeholders to bring a consistent vision for the applications delivered and used by the wider business. 
+* Helped prototype & release a more helpful face for the bank through an online project delivered for the website project called ‘Life Moments’.
+* Ongoing redesign project to reimagine the BNZ www experience.
+
+###### *May 2015 — August 2018*
+### Vocus Communications — UI/UX Lead 
+Working within an Agile development environment as UI/UX lead for the main application development team at Vocus. The role established UI and component guidelines to ensure the clear direction & alignment of a consistent UI for both marketing and app teams. Worked closely with other dev-team leaders and stakeholders to bring a consistent vision for the applications delivered and used by the wider business. 
 
 * Produced a front-end redesign of Vocus One (Vocus’ premier customer portal)
 * Guided other Front End developers and managed UI guidelines within the Application Development team.
 * Designed & Implemented a web-based mobile experience, for managing fibre enclosures across the Vocus Network.
 * Introduced the use of Interactive prototypes in presentations and storyboarding of ideas to aid in the UX decision making process.
 
-###### *September 2010 - April 2015*
+###### *September 2010 — April 2015*
 ### Creative Feijoa Ltd — Managing Director/Owner
 
 Successfully ran my own business for 4 years across three different countries. The staple of work was providing front end development for Graphic Design Agencies and other Freelancers. 
