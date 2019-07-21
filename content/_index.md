@@ -2,7 +2,7 @@
 title: Tim Clulow's CV
 ---
 # Hello,
-I’m a Designer who enjoys coding for the web. I'm at home when mixing design with prototyping. I enjoy user-testing and research when solving design problems.
+I’m a Designer and Front End Developer who enjoys building experiences and components for the web. I'm at home when mixing design with prototyping. I enjoy user-testing and research when solving design problems.
 
 {{% grid %}}
 
@@ -69,8 +69,9 @@ Worked on iPhone application “Local Sale Finder” I was responsible for Desig
   * React.js
   * Svelte Js (+ Sapper)
   * Hugo.io (Static site generator)
+  * Angular
   * Umbraco (CMS)
-
+  
 #### Interested in
   * Design systems
   * WebVR / A-Frame
