@@ -17,6 +17,7 @@ var bit = document.getElementById("vert1");
 var shoulder = document.getElementById("angle1");
 var m = document.getElementById("M");
 var progressBar = document.getElementById("progress");
+var mainContent = document.getElementById("mainContent");
 
 var tl = new TimelineMax({onComplete:complete, onUpdate: Progress});
 var firstPlay = true;
@@ -40,12 +41,12 @@ var arm2Wave;
 var handWave;
 function complete() {
   hiMessage.classList.add('on');
+  mainContent.firstElementChild.classList.add('on');
   tl.addLabel("midpoint");
   tl.add(TweenMax.to(hand2, 0.45, {ease: Power4.easeInOut, rotation:-40, yoyo: true, repeat: 5}), "midpoint");
   tl.add(TweenMax.to(m, 1.8, {ease: Sine.easeInOut, rotation:-80, yoyo: true, repeat: 1, onComplete:backtoStart}), "midpoint");
   tl.add(TweenMax.to(armandhand, 0.45, {transformOrigin:"bottom left", ease: Sine.easeInOut, rotation:32, yoyo: true, repeat: 5}), "midpoint");
   tl.add(TweenMax.to(hand1, 1.8, {transformOrigin:"bottom right", ease: Power1.easeInOut, rotation: -15, yoyo: true}), "midpoint");
-  
 }
 
 function repeat(){
@@ -73,6 +74,7 @@ function Progress (){
   var rounded = Math.round( tl.progress() * 10 ) / 10;
   if(!firstPlay && !tl.reversed() && (0.2 == rounded)){
     hiMessage.classList.add('on');
+    mainContent.firstElementChild.classList.add('on');
   }
   if(tl.reversed() && 0.2 == rounded ){
     hiMessage.classList.remove('on');
@@ -80,6 +82,7 @@ function Progress (){
   if(tl.progress() == 0){
     progressBar.classList.remove('on');
     skew.classList.remove('on');
+    mainContent.firstElementChild.classList.remove('on');
   }
 }
 document.addEventListener("DOMContentLoaded", function() {

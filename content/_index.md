@@ -1,8 +1,8 @@
 ---
 title: Tim Clulow's CV
 ---
-# Hello,
-I'm a Designer who happens to enjoy writing CSS, I love to prototype, test & research when solving design problems.
+# Hello Future,
+I’m a Designer who enjoys coding for the web. I'm at home when mixing design with prototyping. I enjoy user-testing and research when solving design problems.
 
 {{% grid %}}
 
@@ -11,7 +11,7 @@ I'm a Designer who happens to enjoy writing CSS, I love to prototype, test & res
 ###### *August 2018 — Present*
 ### Bank of New Zealand — Digital Designer 
 
-* Prototyped & release a more helpful face for the bank through an online project delivered for the website project called ‘Life Moments’.
+* Prototyped & released a blog style, more helpful face for the bank called ‘Life Moments’ an online project delivered for the public facing website.
 * Ongoing redesign project to reimagine the BNZ www experience.
 
 ###### *May 2015 — August 2018*
@@ -66,10 +66,10 @@ Worked on iPhone application “Local Sale Finder” I was responsible for Desig
   * PostCSS & Sass
 
 #### Familiar with
-  * Node.js
-  * Ractive.js
+  * React.js
   * Svelte Js (+ Sapper)
   * Hugo.io (Static site generator)
+  * Umbraco (CMS)
 
 #### Interested in
   * Design systems
