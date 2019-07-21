@@ -2,7 +2,7 @@
 title: Tim Clulow's CV
 ---
 # Hello,
-I’m a Designer and Front End Developer who enjoys building experiences and components for the web. I'm at home when mixing design with prototyping. I enjoy user-testing and research when solving design problems.
+I’m a Designer and Front End Developer who enjoys building experiences and components for the web. I'm at home when mixing design with prototyping. I enjoy user-testing and research when solving problems.
 
 {{% grid %}}
 
