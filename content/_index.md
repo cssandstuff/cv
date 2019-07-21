@@ -1,7 +1,7 @@
 ---
 title: Tim Clulow's CV
 ---
-# Hello Future,
+# Hello,
 I’m a Designer who enjoys coding for the web. I'm at home when mixing design with prototyping. I enjoy user-testing and research when solving design problems.
 
 {{% grid %}}
