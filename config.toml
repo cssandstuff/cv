@@ -1,4 +1,7 @@
-baseurl = "https://cssandstuff.github.io/cv/"
+## baseurl has to be without cv/ when generating pdf
+## so use https://cssandstuff.github.io/ instead
+
+baseurl = "https://cssandstuff.github.io/cv"
 disableKinds = ["RSS"]
 defaultContentLanguage = "en"
 enableRobotsTXT = true

@@ -24,5 +24,8 @@
   "homepage": "https://github.com/cssandstuff/cv#readme",
   "devDependencies": {
     "cssnano": "^4.1.10"
+  },
+  "dependencies": {
+    "html-pdf": "^2.2.0"
   }
 }

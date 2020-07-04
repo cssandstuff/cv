@@ -17,6 +17,15 @@ html {
   border-bottom: 10px solid #000;
 }
 
+#target {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 20px;
+  background: black;
+}
+
 footer a:hover {
   color: rgb(252, 76, 122);
   border-color: rgb(252, 76, 122);
@@ -64,10 +73,10 @@ footer a:hover {
 }
 .skewed-bg {
   min-width: 242px;
-  width: 10.5em;
+  width: 9.6em;
   margin: auto;
   display: block;
-  height: 90px;
+  height: 92px;
   background: none;
   mix-blend-mode: multiply;
   padding: 0;
@@ -188,6 +197,20 @@ footer a:hover {
   width: 70%;
   max-width: 35em;
 }
+.-span-cols-6 ul:before {
+  content: 'A few highlights:';
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: 400;
+  background: rgb(255, 247, 138);
+  color: #222;
+  padding: 1px 9px;
+  line-height: 1.8;
+  margin: 20px 0 9px -25px;
+  /* box-shadow: 0 0 2px #ccc; */
+  border-radius: 2px;
+  /* text-transform: lowercase; */
+}
 .main h1 + p {
   text-align: left;
   margin: 0;
@@ -222,19 +245,19 @@ footer a {
 }
 .main .-span-cols-4 ul li {
   padding-left: 0;
-  padding-bottom: 0.7em;
+  padding-bottom: 0.9em;
   padding-right: 1em;
   font-size: 0.75em;
   list-style-type: none;
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
-  color: #999;
+  color: #444;
 }
 .main .-span-cols-4 ul li:before {
   content: '— ';
 }
 .main h4 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 0.9em;
   font-weight: 600;
   letter-spacing: 1px;
@@ -251,6 +274,7 @@ footer a {
   font-size: 0.8em;
 }
 .main h6 em {
+  font-style: normal;
   margin-top: 1em;
   display: block;
   font-size: 0.8em;
@@ -305,9 +329,8 @@ h2 {
   text-align: left;
   font-weight: 600;
   font-size: 1.15em;
-  padding-bottom: 5px;
-  letter-spacing: -0.02em;
   margin-top: 2.5em;
+  margin-bottom: 0.56em;
 }
 
 p {
@@ -407,16 +430,16 @@ ul li {
 }
 
 .download:hover {
-  color: rgb(252, 76, 122);
+  color: rgb(70, 122, 163);
 }
 
 .download:hover .download-icon {
-  transform: scale(1);
-  border-color: rgb(252, 76, 122);
+  transform: scale(0.9);
+  border-color: rgb(70, 122, 163);
 }
 .download:hover .download-icon:before,
 .download:hover .download-icon:after {
-  background: rgb(252, 76, 122);
+  background: rgb(70, 122, 163);
 }
 .download-icon {
   width: 29px;
@@ -475,10 +498,15 @@ ul li {
 
   #timclulow-word {
     top: 0.1em;
+    display: none;
+  }
+  #target {
+    display: none;
   }
 
   #timclulow-word,
   .skewed-bg {
+    display: none;
     transform: scale(0.55);
     -webkit-transform: scale(0.55);
   }
