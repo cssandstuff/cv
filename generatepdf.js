@@ -9,7 +9,7 @@ var options = {
     bottom: '2cm',
     left: '3cm',
   },
-  renderDelay: 3000,
+  renderDelay: 2000,
 };
 
 pdf

@@ -39,6 +39,7 @@ Working within an Agile development environment as UI/UX lead for the main appli
 
 Successfully ran my own business for 4 years across three different countries (UK, Japan & New Zealand). The staple of work was providing front end development for Graphic Design Agencies and other Freelancers.
 
+- Worked with Cerego Japan to redesign Japanese & English landing pages for iKnow (Japanese/English spaced repetition learning app) increasing conversion rates.
 - Built & Maintained a large number of user-friendly, content-managed websites using the Umbraco CMS.
 - Produced work for high end fashion & travel clients.
 
