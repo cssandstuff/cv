@@ -426,7 +426,7 @@ ul li {
 .download .download-icon,
 .download .download-icon:before,
 .download .download-icon:after {
-  transition: 0.7s all cubic-bezier(0.42, 0, 0.57, 1.96);
+  transition: 0.7s transform cubic-bezier(0.42, 0, 0.57, 1.96);
 }
 
 .download:hover {

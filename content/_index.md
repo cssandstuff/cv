@@ -20,7 +20,7 @@ Working within a design team of 12, I helped bridge the gap between design and d
 
 - Design & Prototype for ‘Life Moments’ a series of an online help articles delivered for the public facing bnz website.
 - Re-design of the overview screens for both the iPhone & Android app store
-- Redesign of 'secure messages' flows to help customers get their messages to the right people faster.
+- Implementation of Design-tokens to help share all design related variables (typography, colour, spacing) across web and mobile front-end teams.
 
 ###### _May 2015 — August 2018_
 

@@ -178,12 +178,16 @@ function onLogoHover() {
     }
     if (count > 1) {
       document.getElementById('hi-message').innerHTML =
-        '<p>I like the curious ones. Hello to you too!</p>';
+        '<p>Oh hey, have we met before? Hello to you too!</p>';
       count = 0;
     }
+
+    tl.timeScale(1).play();
+    setTimeout(function () {
+      onLogoHover();
+    }, 50);
     progressBar.classList.add('on');
     skew.classList.add('on');
-    tl.timeScale(1).play();
   }
 }
 
