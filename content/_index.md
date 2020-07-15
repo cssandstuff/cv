@@ -18,7 +18,7 @@ I’m Tim, a Designer and Front End Developer who enjoys building experiences an
 
 Working within a design team of 12, I helped bridge the gap between design and development, primarily working within the design systems team.
 
-- Design & Prototype for ‘Life Moments’ a series of an online help articles delivered for the public facing bnz website.
+- Design & Prototype for ‘Life Moments’ a series of online help articles delivered for the public facing bnz website.
 - Re-design of the overview screens for both the iPhone & Android app store
 - Implementation of Design-tokens to help share all design related variables (typography, colour, spacing) across web and mobile front-end teams.
 
