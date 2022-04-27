@@ -2,7 +2,7 @@
 title: Tim Clulow's CV
 ---
 
-# _Hello,_ I’m Tim, a Designer and Front End Developer.
+# _Hello,_ I’m Tim, a Designer and front-end Developer.
 
  I enjoy building experiences and components for the web. I'm at home when mixing design with prototyping. I enjoy user-testing and research when solving problems.
 
@@ -12,14 +12,20 @@ title: Tim Clulow's CV
 
 ## Experience
 
-1. ###### _August 2018 — Present_
-   ### Bank of New Zealand — Digital Designer
-   Working within a design team of 12, I helped bridge the gap between design and development, primarily working within the design systems team.
-   1. Design & Prototype for ‘Life Moments’ a series of online help articles delivered for the public facing bnz website.
-   1. Re-design of the overview screens for both the iPhone & Android app store
-   1. Implementation of Design-tokens to help share all design related variables (typography, colour, spacing) across web and mobile front-end teams.
+<ol reversed>
+<li> 
 
-1. ###### _May 2015 — August 2018_
+  ###### _August 2018 — Present_
+  ### Bank of New Zealand — Digital Designer
+  Working within a design team of 12, I helped bridge the gap between design and development, primarily working within the design systems team.
+  1. Design & Prototype for ‘Life Moments’ a series of online help articles delivered for the public facing bnz website.
+  1. Re-design of the overview screens for both the iPhone & Android app store
+  1. Implementation of Design-tokens to help share all design related variables (typography, colour, spacing) across web and mobile front-end teams.
+
+</li>
+<li>
+
+   ###### _May 2015 — August 2018_
    ### Vocus Communications — UI/UX Lead
    Working within an Agile development environment as UI/UX lead for the main application development team at Vocus. The role established UI and component guidelines to ensure the clear direction & alignment of a consistent UI for both marketing and app teams. Worked closely with other dev-team leaders and stakeholders to bring a consistent vision for the applications delivered and used by the wider business.
 
@@ -28,7 +34,10 @@ title: Tim Clulow's CV
    1. Designed & Implemented a web-based mobile experience, for managing fibre enclosures across the Vocus Network.
    1. Introduced the use of Interactive prototypes in presentations and storyboarding of ideas to aid in the UX decision making process.
 
-1. ###### _September 2010 — April 2015_
+</li>
+<li>
+
+   ###### _September 2010 — April 2015_
    ### Creative Feijoa Ltd — Managing Director/Owner
    Successfully ran my own business for 4 years across three different countries (UK, Japan & New Zealand). The staple of work was providing front end development for Graphic Design Agencies and other Freelancers.
 
@@ -36,7 +45,9 @@ title: Tim Clulow's CV
    1. Built & Maintained a large number of user-friendly, content-managed websites using the Umbraco CMS.
    1. Produced work for high end fashion & travel clients.
 
-1. ###### _September 2009 - September 2010_
+<li>
+   
+   ###### _September 2009 - September 2010_
    ### Bview/Geocast Ltd — Front-end Developer / Designer
 
    Worked at bView - a London startup focused on creating a geo-centric platform for delivering discount vouchers. Was part of a small development team, responsible for all front-facing aspects of bView’s sites and applications.
@@ -45,12 +56,17 @@ title: Tim Clulow's CV
    1. Logo development for a new Voucher distribution network. Worked with company directors to answer a brief based on brand requirements.
    1. Became more focused on online booking forms across different mobile devices, and how to enrich small screen web experiences.
 
-1. ###### _March 2006 - August 2009_
+</li>
+<li> 
+
+   ###### _March 2006 - August 2009_
    ### Alpine Interactive — Web Developer / Designer
 
    1. Worked with Press and media clients, such as the Spectator, the Independent, Editorial Intelligence and Full Circle Films.
    1. Delivered Football World Cup 2006 website for the telegraph.co.uk
 
+</li>
+</ol>
 {{% /column %}}
 
 {{% column -span-cols-4 -p-left-3 %}}
@@ -84,7 +100,7 @@ title: Tim Clulow's CV
 #### Other Info
 
 <dl>
-  <dt><strong>Language:<strong></dt>
+  <dt><strong>Language:</strong></dt>
   <dd>Native English speaker with Japanese JLPT-N3 Language proficiency</dd>
 </dl>
 
