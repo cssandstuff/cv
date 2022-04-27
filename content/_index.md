@@ -73,21 +73,19 @@ title: Tim Clulow's CV
 
 #### Fluent with
 
+- Figma
 - Sketch
 - Adobe Illustrator
 - Photoshop
-- Fireworks
 - HTML & all things CSS
 - SVG animation
 
 #### Familiar with
 
+- Svelte
 - React
 - FramerX
-- Figma
-- SvelteJs
 - Hugo.io (Static site generator)
-- Angular
 - Umbraco (CMS)
 
 #### Interested in
