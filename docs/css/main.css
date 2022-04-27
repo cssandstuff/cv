@@ -212,12 +212,21 @@ footer a:hover {
   border-radius: 2px;
   /* text-transform: lowercase; */
 }
-.main h1 + p {
+
+.main h1, .main h1 + p {
   text-align: left;
   margin: 0;
   font-size: 1.23em;
   line-height: normal;
+  font-weight: 200;
 }
+.main h1 + p {
+  padding-right: 2em;
+}
+
+/* .main h1{
+  font-weight: 400;
+} */
 .main a,
 footer a {
   transition: 0.3s all cubic-bezier(0.42, 0, 0.57, 1.96);
@@ -313,13 +322,16 @@ h6 {
   text-align: left;
 }
 
-h1 {
+h1 em {
   text-align: center;
-  font-size: 3em;
-  margin-top: 0.5em;
-  margin-bottom: 0.8em;
+  font-size: 2.5em;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
   transition: 0.9s all;
   letter-spacing: 0.01em;
+  font-style: normal;
+  display: block;
+  font-weight: 700;
 }
 
 /* h1.on {
@@ -514,10 +526,6 @@ ol li > ol li, ul li {
 
   .skewed-bg {
     width: 25em;
-  }
-
-  .main h1 + p {
-    margin-right: 2em;
   }
 
   .-p-left-3 {
