@@ -1,3 +1,4 @@
+/* @todo: clean up this file */
 html,
 body {
   font-family: 'Fira sans', sans-serif;
@@ -197,7 +198,7 @@ footer a:hover {
   width: 70%;
   max-width: 35em;
 }
-.-span-cols-6 ul:before {
+.-span-cols-6 > ol li > ol:before {
   content: 'A few highlights:';
   display: inline-block;
   font-size: 0.6em;
@@ -383,11 +384,11 @@ dl dd {
   padding-left: 7px;
 }
 
-ul {
+ul, ol li > ol{
   padding-left: 1em;
 }
 
-ul li {
+ol li > ol li, ul li {
   text-align: left;
   list-style-type: none;
   padding-left: 0.2em;
@@ -398,11 +399,11 @@ ul li {
   padding-bottom: 1em;
 }
 
-.-span-cols-6 ul li {
+.-span-cols-6 > ol li > ol li {
   padding-left: 0.6em;
 }
 
-.-span-cols-6 ul li:before {
+.-span-cols-6 > ol li > ol li:before {
   content: '0' counter(item) '. ';
   font-weight: 800;
   margin-left: -1.65em;

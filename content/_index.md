@@ -12,53 +12,44 @@ I’m Tim, a Designer and Front End Developer who enjoys building experiences an
 
 ## Experience
 
-###### _August 2018 — Present_
+1. ###### _August 2018 — Present_
+   ### Bank of New Zealand — Digital Designer
+   Working within a design team of 12, I helped bridge the gap between design and development, primarily working within the design systems team.
+   1. Design & Prototype for ‘Life Moments’ a series of online help articles delivered for the public facing bnz website.
+   1. Re-design of the overview screens for both the iPhone & Android app store
+   1. Implementation of Design-tokens to help share all design related variables (typography, colour, spacing) across web and mobile front-end teams.
 
-### Bank of New Zealand — Digital Designer
+1. ###### _May 2015 — August 2018_
+   ### Vocus Communications — UI/UX Lead
+   Working within an Agile development environment as UI/UX lead for the main application development team at Vocus. The role established UI and component guidelines to ensure the clear direction & alignment of a consistent UI for both marketing and app teams. Worked closely with other dev-team leaders and stakeholders to bring a consistent vision for the applications delivered and used by the wider business.
 
-Working within a design team of 12, I helped bridge the gap between design and development, primarily working within the design systems team.
+   1. Design lead for Vocus One (Vocus’ premier customer portal)
+   1. Guided other Front End developers and managed UI guidelines within the Application Development team.
+   1. Designed & Implemented a web-based mobile experience, for managing fibre enclosures across the Vocus Network.
+   1. Introduced the use of Interactive prototypes in presentations and storyboarding of ideas to aid in the UX decision making process.
 
-- Design & Prototype for ‘Life Moments’ a series of online help articles delivered for the public facing bnz website.
-- Re-design of the overview screens for both the iPhone & Android app store
-- Implementation of Design-tokens to help share all design related variables (typography, colour, spacing) across web and mobile front-end teams.
+1. ###### _September 2010 — April 2015_
+   ### Creative Feijoa Ltd — Managing Director/Owner
+   Successfully ran my own business for 4 years across three different countries (UK, Japan & New Zealand). The staple of work was providing front end development for Graphic Design Agencies and other Freelancers.
 
-###### _May 2015 — August 2018_
+   1. Worked with Cerego Japan to redesign Japanese & English landing pages for iKnow (Japanese/English spaced repetition learning app) increasing conversion rates.
+   1. Built & Maintained a large number of user-friendly, content-managed websites using the Umbraco CMS.
+   1. Produced work for high end fashion & travel clients.
 
-### Vocus Communications — UI/UX Lead
+1. ###### _September 2009 - September 2010_
+   ### Bview/Geocast Ltd — Front-end Developer / Designer
 
-Working within an Agile development environment as UI/UX lead for the main application development team at Vocus. The role established UI and component guidelines to ensure the clear direction & alignment of a consistent UI for both marketing and app teams. Worked closely with other dev-team leaders and stakeholders to bring a consistent vision for the applications delivered and used by the wider business.
+   Worked at bView - a London startup focused on creating a geo-centric platform for delivering discount vouchers. Was part of a small development team, responsible for all front-facing aspects of bView’s sites and applications.
+   Worked on iPhone application “Local Sale Finder” I was responsible for Design and User Experience.
 
-- Design lead for Vocus One (Vocus’ premier customer portal)
-- Guided other Front End developers and managed UI guidelines within the Application Development team.
-- Designed & Implemented a web-based mobile experience, for managing fibre enclosures across the Vocus Network.
-- Introduced the use of Interactive prototypes in presentations and storyboarding of ideas to aid in the UX decision making process.
+   1. Logo development for a new Voucher distribution network. Worked with company directors to answer a brief based on brand requirements.
+   1. Became more focused on online booking forms across different mobile devices, and how to enrich small screen web experiences.
 
-###### _September 2010 — April 2015_
+1. ###### _March 2006 - August 2009_
+   ### Alpine Interactive — Web Developer / Designer
 
-### Creative Feijoa Ltd — Managing Director/Owner
-
-Successfully ran my own business for 4 years across three different countries (UK, Japan & New Zealand). The staple of work was providing front end development for Graphic Design Agencies and other Freelancers.
-
-- Worked with Cerego Japan to redesign Japanese & English landing pages for iKnow (Japanese/English spaced repetition learning app) increasing conversion rates.
-- Built & Maintained a large number of user-friendly, content-managed websites using the Umbraco CMS.
-- Produced work for high end fashion & travel clients.
-
-###### _September 2009 - September 2010_
-
-### Bview/Geocast Ltd — Front-end Developer / Designer
-
-Worked at bView - a London startup focused on creating a geo-centric platform for delivering discount vouchers. Was part of a small development team, responsible for all front-facing aspects of bView’s sites and applications.
-Worked on iPhone application “Local Sale Finder” I was responsible for Design and User Experience.
-
-- Logo development for a new Voucher distribution network. Worked with company directors to answer a brief based on brand requirements.
-- Became more focused on online booking forms across different mobile devices, and how to enrich small screen web experiences.
-
-###### _March 2006 - August 2009_
-
-### Alpine Interactive — Web Developer / Designer
-
-- Worked with Press and media clients, such as the Spectator, the Independent, Editorial Intelligence and Full Circle Films.
-- Delivered Football World Cup 2006 website for the telegraph.co.uk
+   1. Worked with Press and media clients, such as the Spectator, the Independent, Editorial Intelligence and Full Circle Films.
+   1. Delivered Football World Cup 2006 website for the telegraph.co.uk
 
 {{% /column %}}
 
@@ -92,11 +83,10 @@ Worked on iPhone application “Local Sale Finder” I was responsible for Desig
 
 #### Other Info
 
-{{% dd %}}
-
-- **Language:**
-  1. Native English speaker with Japanese JLPT-N3 Language proficiency
-     {{% /dd %}}
+<dl>
+  <dt><strong>Language:<strong></dt>
+  <dd>Native English speaker with Japanese JLPT-N3 Language proficiency</dd>
+</dl>
 
 ## Hobbies/Interests
 
