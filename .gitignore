@@ -3,3 +3,4 @@ content/coverletter*
 docs/coverletter*
 docs/assets/coverletter*
 node_modules
+.passwd
