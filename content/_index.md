@@ -56,15 +56,6 @@ title: Tim Clulow's CV
    1. Became more focused on online booking forms across different mobile devices, and how to enrich small screen web experiences.
 
 </li>
-<!-- <li> 
-
-   <!-- ###### _March 2006 - August 2009_
-   ### Alpine Interactive — Web Developer / Designer
-
-   1. Worked with Press and media clients, such as the Spectator, the Independent, Editorial Intelligence and Full Circle Films.
-   1. Delivered Football World Cup 2006 website for the telegraph.co.uk -->
-
-<!-- </li> --> 
 </ol>
 {{% /column %}}
 {{% column -span-cols-4 -p-left-3 %}}
