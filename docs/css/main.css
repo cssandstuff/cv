@@ -216,9 +216,11 @@ footer a:hover {
   /* text-transform: lowercase; */
 }
 
+
 .header h1, .header h1 + p {
   text-align: left;
   margin: 0;
+  display: inline;
   font-size: 1.23em;
   line-height: normal;
   font-weight: 200;
@@ -532,6 +534,10 @@ ol li > ol li, ul li {
   html,
   body {
     font-size: 1.25em;
+  }
+
+  .header h1, .header p{
+    display: block;
   }
 }
 
