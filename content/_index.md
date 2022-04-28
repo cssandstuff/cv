@@ -2,12 +2,7 @@
 title: Tim Clulow's CV
 ---
 
-# _Hello,_ I’m Tim, a Designer and front-end Developer.
-
- I enjoy building experiences and components for the web. I'm at home when mixing design with prototyping. I enjoy user-testing and research when solving problems.
-
 {{% grid %}}
-
 {{% column -span-cols-6 -m-right-2 %}}
 
 ## Experience
@@ -15,10 +10,14 @@ title: Tim Clulow's CV
 <ol reversed>
 <li> 
 
-  ###### _August 2018 — Present_
+  ###### _August 2020 — Present_
+  ### Bank of New Zealand — Senior Developer
+  My day to day now revolves more around prototyping and writing React components. I work closely with designers to help build & maintain bnz's design system documentation website (built with NextJs). 
+
+  ###### _August 2018 — 2020_
   ### Bank of New Zealand — Digital Designer
   Working within a design team of 12, I helped bridge the gap between design and development, primarily working within the design systems team.
-  1. Design & Prototype for ‘Life Moments’ a series of online help articles delivered for the public facing bnz website.
+  1. Design & Prototype for 'Life Moments' a series of online help articles delivered for the public facing bnz website.
   1. Re-design of the overview screens for both the iPhone & Android app store
   1. Implementation of Design-tokens to help share all design related variables (typography, colour, spacing) across web and mobile front-end teams.
 
@@ -29,7 +28,7 @@ title: Tim Clulow's CV
    ### Vocus Communications — UI/UX Lead
    Working within an Agile development environment as UI/UX lead for the main application development team at Vocus. The role established UI and component guidelines to ensure the clear direction & alignment of a consistent UI for both marketing and app teams. Worked closely with other dev-team leaders and stakeholders to bring a consistent vision for the applications delivered and used by the wider business.
 
-   1. Design lead for Vocus One (Vocus’ premier customer portal)
+   1. Design lead for Vocus One (Vocus' premier customer portal)
    1. Guided other Front End developers and managed UI guidelines within the Application Development team.
    1. Designed & Implemented a web-based mobile experience, for managing fibre enclosures across the Vocus Network.
    1. Introduced the use of Interactive prototypes in presentations and storyboarding of ideas to aid in the UX decision making process.
@@ -50,41 +49,37 @@ title: Tim Clulow's CV
    ###### _September 2009 - September 2010_
    ### Bview/Geocast Ltd — Front-end Developer / Designer
 
-   Worked at bView - a London startup focused on creating a geo-centric platform for delivering discount vouchers. Was part of a small development team, responsible for all front-facing aspects of bView’s sites and applications.
-   Worked on iPhone application “Local Sale Finder” I was responsible for Design and User Experience.
+   Worked at bView - a London startup focused on creating a geo-centric platform for delivering discount vouchers. Was part of a small development team, responsible for all front-facing aspects of bView's sites and applications.
+   Worked on iPhone application "Local Sale Finder" I was responsible for Design and User Experience.
 
    1. Logo development for a new Voucher distribution network. Worked with company directors to answer a brief based on brand requirements.
    1. Became more focused on online booking forms across different mobile devices, and how to enrich small screen web experiences.
 
 </li>
-<li> 
+<!-- <li> 
 
-   ###### _March 2006 - August 2009_
+   <!-- ###### _March 2006 - August 2009_
    ### Alpine Interactive — Web Developer / Designer
 
    1. Worked with Press and media clients, such as the Spectator, the Independent, Editorial Intelligence and Full Circle Films.
-   1. Delivered Football World Cup 2006 website for the telegraph.co.uk
+   1. Delivered Football World Cup 2006 website for the telegraph.co.uk -->
 
-</li>
+<!-- </li> --> 
 </ol>
 {{% /column %}}
-
 {{% column -span-cols-4 -p-left-3 %}}
 
 #### Fluent with
 
 - Figma
 - Sketch
-- Adobe Illustrator
-- Photoshop
 - HTML & all things CSS
 - SVG animation
+- React
 
 #### Familiar with
 
 - Svelte
-- React
-- FramerX
 - Hugo.io (Static site generator)
 - Umbraco (CMS)
 

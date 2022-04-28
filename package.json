@@ -10,7 +10,8 @@
     "start": "hugo serve -d docs",
     "minifycss": "postcss ./themes/winning/static/css/main.css > ./docs/css/main.min.css && postcss ./themes/winning/static/css/belmu.css > ./docs/css/belmu.min.css",
     "stage": "HUGO_ENV=production npm start | npm run minifycss",
-    "build": "HUGO_ENV=production hugo -d docs && npm run minifycss"
+    "build": "HUGO_ENV=production hugo -d docs && npm run minifycss && npm run postbuild",
+    "postbuild": "prettier --write docs/index.html"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "cssnano": "^4.1.10"
   },
   "dependencies": {
-    "html-pdf": "^2.2.0"
+    "html-pdf": "^2.2.0",
+    "prettier": "^2.6.2"
   }
 }

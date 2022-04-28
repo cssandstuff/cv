@@ -11,7 +11,7 @@ html {
   border-bottom: 10px solid #000;
 }
 
-#target {
+#bar {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -166,8 +166,8 @@ footer a:hover {
 .grid-layout-1 {
   display: grid;
   grid-gap: 1em;
-  grid-template-areas: 'main' 'header' 'footer';
-  grid-template-rows: auto 0fr 1fr;
+  grid-template-areas: 'header' 'main' 'footer';
+  grid-template-rows: auto;
 }
 
 @media only screen and (min-width: 1240px) {
@@ -180,13 +180,22 @@ footer a:hover {
 
 .header {
   grid-area: header;
+  margin: 3em auto 40px;
+  line-height: 1.2em;
+  text-align: left;
+  width: 70%;
+  max-width: 35em;
+}
+
+.badge{
   margin-top: 2em;
   margin-bottom: 1em;
   position: relative;
 }
+
 .main {
   grid-area: main;
-  margin: 3em auto 40px;
+  margin: 0 auto 40px;
   line-height: 1.2em;
   text-align: left;
   width: 70%;
@@ -207,14 +216,14 @@ footer a:hover {
   /* text-transform: lowercase; */
 }
 
-.main h1, .main h1 + p {
+.header h1, .header h1 + p {
   text-align: left;
   margin: 0;
   font-size: 1.23em;
   line-height: normal;
   font-weight: 200;
 }
-.main h1 + p {
+.header h1 + p {
   padding-right: 2em;
 }
 
@@ -233,9 +242,9 @@ footer a {
   color: #000;
   box-shadow: inset 0 -1.3em 0 rgba(100, 100, 100, 0.1);
 }
-.main .grid {
+/* .main .grid {
   margin-top: 3em;
-}
+} */
 .main > h2:first-child {
   margin-top: 1em;
 }
@@ -498,20 +507,53 @@ ol li > ol li, ul li {
   padding-top: 2em;
 }
 
+/* responsiveness */
+@media only screen and (max-width: 800px) {
+
+  .grid {
+    display: block;
+  }
+  .-span-cols-4 {
+    margin-top: 3em;
+  }
+  .footer {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  html,
+  body {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  html,
+  body {
+    font-size: 1.25em;
+  }
+}
+
+
 @media print {
   .header {
     padding-top: 0;
   }
 
-  #timclulow-word {
+  .header{
+    margin-left: 0.4em;
+  }
+
+  #timclulow-word-print {
     top: 0.1em;
     display: none;
   }
-  #target {
+  #bar {
     display: none;
   }
 
-  #timclulow-word,
+  #timclulow-word-print,
   .skewed-bg {
     display: none;
     transform: scale(0.55);
@@ -564,12 +606,13 @@ ol li > ol li, ul li {
   }
 
   .main,
+  .header,
   .footer {
     width: 100%;
     max-width: none;
   }
 
-  .main ul {
+  .main ol li > ol, .main ul {
     margin-top: 10px;
     margin-left: 0.5em;
   }
@@ -581,15 +624,8 @@ ol li > ol li, ul li {
   #pageHeader-1 {
     display: none;
   }
-  .-float-right {
-    float: none;
-    width: 100%;
-  }
-  .-float-right .-print-only {
-    display: inline;
-  }
-  .footer {
-    padding-bottom: 0;
+  .footer > * {
+    padding-top: 4em; 
   }
   html {
     border-bottom: none;
@@ -598,35 +634,16 @@ ol li > ol li, ul li {
     size: A4;
     margin: 2cm 3cm;
   }
-}
 
-/* responsiveness */
-@media only screen and (max-width: 800px) {
-  .-float-left,
-  .-float-right {
+  /* .-span-cols-4, .-span-cols-6{
+    width: 95%;
     float: none;
   }
-  .grid {
-    display: block;
-  }
-  .-span-cols-4 {
-    margin-top: 3em;
-  }
-  .footer {
-    width: 60%;
-  }
-}
 
-@media only screen and (min-width: 500px) {
-  html,
-  body {
-    font-size: 1.1em;
-  }
-}
-
-@media only screen and (min-width: 1140px) {
-  html,
-  body {
-    font-size: 1.25em;
-  }
+  aside{display: none} 
+  
+  .col.-span-cols-4.-p-left-3{
+    border: none;
+    padding: 1em 0 0 0;
+  }*/
 }

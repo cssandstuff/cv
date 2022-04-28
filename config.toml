@@ -7,7 +7,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 languageCode = "en-us"
 theme = "winning"
-title = "CV Tim Clulow"
+title = "CV — Tim Clulow"
 [taxonomies]
 [markup.goldmark.renderer]
 unsafe= true
