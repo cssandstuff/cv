@@ -269,16 +269,11 @@ footer a {
   font-style: normal;
   color: #444;
 }
+
 .main .-span-cols-4 ul li:before {
   content: '— ';
 }
-.main h3 {
-  /* text-transform: uppercase; */
-  font-size: 0.9em;
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin-bottom: 1em;
-}
+
 .main h4 {
   margin-top: -13px;
   font-weight: 400;
