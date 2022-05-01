@@ -20,16 +20,16 @@ var m = document.getElementById('M');
 var progressBar = document.getElementById('progress');
 var mainContent = document.getElementById('mainContent');
 
-var tl = new TimelineMax({ onComplete: complete, onUpdate: Progress });
+var tl = gsap.timeline({ onComplete: complete, onUpdate: Progress });
 var firstPlay = true;
 tl.pause();
 tl.addLabel('start');
 tl.add(
-  TweenMax.to(bit, 0.3, { ease: Power2.easeIn, repeat: 0, opacity: 0 }),
+  gsap.to(bit, 0.3, { ease: Power2.easeIn, repeat: 0, opacity: 0 }),
   0
 );
 tl.add(
-  TweenMax.to(hand1, 1, {
+  gsap.to(hand1, 1, {
     ease: Power2.easeOut,
     repeat: 0,
     rotation: -50,
@@ -40,11 +40,11 @@ tl.add(
   0
 );
 tl.add(
-  TweenMax.to(c, 1, { ease: Power2.easeIn, repeat: 0, opacity: 0, y: 100 }),
+  gsap.to(c, 1, { ease: Power2.easeIn, repeat: 0, opacity: 0, y: 100 }),
   0
 );
 tl.add(
-  TweenMax.to(l1, 1, {
+  gsap.to(l1, 1, {
     ease: Power2.easeOut,
     repeat: 0,
     y: 25,
@@ -54,7 +54,7 @@ tl.add(
   0
 );
 tl.add(
-  TweenMax.to(l2, 1, {
+  gsap.to(l2, 1, {
     ease: Power2.easeOut,
     repeat: 0,
     y: 26,
@@ -64,15 +64,15 @@ tl.add(
   0
 );
 tl.add(
-  TweenMax.to(o, 1, { ease: Power2.easeIn, repeat: 0, opacity: 0, y: 100 }),
+  gsap.to(o, 1, { ease: Power2.easeIn, repeat: 0, opacity: 0, y: 100 }),
   0
 );
 tl.add(
-  TweenMax.to(w, 1, { ease: Power2.easeIn, repeat: 0, opacity: 0, y: 100 }),
+  gsap.to(w, 1, { ease: Power2.easeIn, repeat: 0, opacity: 0, y: 100 }),
   0
 );
 tl.add(
-  TweenMax.to(eye1, 2, {
+  gsap.to(eye1, 2, {
     ease: Power2.easeOut,
     repeat: 0,
     x: 39,
@@ -81,11 +81,11 @@ tl.add(
   0
 );
 tl.add(
-  TweenMax.to(eye2, 2, { ease: Power2.easeOut, repeat: 0, x: 9, scaleX: 0.66 }),
+  gsap.to(eye2, 2, { ease: Power2.easeOut, repeat: 0, x: 9, scaleX: 0.66 }),
   0
 );
 tl.add(
-  TweenMax.to(smile, 2, {
+  gsap.to(smile, 2, {
     ease: Power2.easeOut,
     repeat: 0,
     scaleY: 0.7,
@@ -96,7 +96,7 @@ tl.add(
   0
 );
 tl.add(
-  TweenMax.to(hand2, 2, {
+  gsap.to(hand2, 2, {
     ease: Power2.easeInOut,
     repeat: 0,
     scaleY: 0.4,
@@ -105,7 +105,7 @@ tl.add(
   0
 );
 tl.add(
-  TweenMax.to(m, 0.6, {
+  gsap.to(m, 0.6, {
     ease: Power2.easeOut,
     repeat: 0,
     y: 40,
@@ -123,7 +123,7 @@ function complete() {
   mainContent.firstElementChild.classList.add('on');
   tl.addLabel('midpoint');
   tl.add(
-    TweenMax.to(hand2, 0.45, {
+    gsap.to(hand2, 0.45, {
       ease: Power4.easeInOut,
       rotation: -40,
       yoyo: true,
@@ -132,7 +132,7 @@ function complete() {
     'midpoint'
   );
   tl.add(
-    TweenMax.to(m, 1.8, {
+    gsap.to(m, 1.8, {
       ease: Sine.easeInOut,
       rotation: -80,
       yoyo: true,
@@ -142,7 +142,7 @@ function complete() {
     'midpoint'
   );
   tl.add(
-    TweenMax.to(armandhand, 0.45, {
+    gsap.to(armandhand, 0.45, {
       transformOrigin: 'bottom left',
       ease: Sine.easeInOut,
       rotation: 32,
@@ -152,7 +152,7 @@ function complete() {
     'midpoint'
   );
   tl.add(
-    TweenMax.to(hand1, 1.8, {
+    gsap.to(hand1, 1.8, {
       transformOrigin: 'bottom right',
       ease: Power1.easeInOut,
       rotation: -15,
@@ -196,7 +196,7 @@ function onLogoOut() {
 }
 
 function backtoStart() {
-  tl.reverse().timeScale(1.5);
+  tl.reverse().timeScale(-1.5);
   firstPlay = false;
 }
 
