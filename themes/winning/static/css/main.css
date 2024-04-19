@@ -526,6 +526,7 @@ ol li > ol li, ul li {
     border-top: 1px solid #ccc;
     font-size: 100%;
     padding-top: 2em;
+    padding-right: 3em
   }
 
   .footer {
