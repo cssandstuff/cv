@@ -8,11 +8,11 @@ title: Tim Clulow's CV
 ## Experience
 
 <ol reversed>
-<li> 
+<li class="break"> 
 
   ### _August 2020 — Present_
   #### Bank of New Zealand — Senior Developer
-  My day to day now revolves more around prototyping and writing React components. I work closely with designers to help build & maintain bnz's design system documentation website (built with NextJs). 
+  Responsible for implementing dark-mode across the BNZ design system using modern CSS best practices. I work closely with designers to help build & maintain the design system documentation website as well as working on new design patterns and building new components for bnz's react library. 
 
   ### _August 2018 — 2020_
   #### Bank of New Zealand — Digital Designer
@@ -43,14 +43,14 @@ title: Tim Clulow's CV
    1. Worked with Cerego Japan to redesign Japanese & English landing pages for iKnow (Japanese/English spaced repetition learning app) increasing conversion rates.
    1. Built & Maintained a large number of user-friendly, content-managed websites using the Umbraco CMS.
    1. Produced work for high end fashion & travel clients.
-
+</li>
 <li>
    
    ### _September 2009 - September 2010_
    #### Bview/Geocast Ltd — Front-end Developer / Designer
 
    Worked at bView - a London startup focused on creating a geo-centric platform for delivering discount vouchers. Was part of a small development team, responsible for all front-facing aspects of bView's sites and applications.
-   Worked on iPhone application "Local Sale Finder" I was responsible for Design and User Experience.
+   Worked on iPhone application "Local Sale Finder".
 
    1. Logo development for a new Voucher distribution network. Worked with company directors to answer a brief based on brand requirements.
    1. Became more focused on online booking forms across different mobile devices, and how to enrich small screen web experiences.
@@ -62,24 +62,21 @@ title: Tim Clulow's CV
 
 ## Fluent with
 
+- React
+- Web components
 - Figma
 - Sketch
-- HTML & all things CSS
+- Semantic HTML
+- Modern CSS
 - SVG animation
-- React
 
 ## Familiar with
 
 - Svelte
-- Hugo.io (Static site generator)
+- HTMX
+- 11ty (Static site generator)
 - Umbraco (CMS)
 
-## Interested in
-
-- Design systems
-- WebVR / A-Frame
-- Three.js
-- Matter.js
 
 ## Other Info
 
@@ -90,7 +87,7 @@ title: Tim Clulow's CV
 
 ## Hobbies/Interests
 
-I am interested in music production and help run a [small meetup group](https://www.meetup.com/Music-Production-Geeks/). I also play field Hockey.
+I also play field Hockey and am also a hobby musician.
 
 {{% printonly %}}
 

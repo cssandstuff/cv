@@ -60,7 +60,7 @@ footer a:hover {
   border: 7px solid #000;
   border-color: #000 transparent transparent transparent;
   display: block;
-  bottom: -14px;
+  bottom: -12px;
   left: 50%;
   margin-left: -10px;
   position: absolute;
@@ -232,7 +232,7 @@ footer a:hover {
 /* .main h1{
   font-weight: 400;
 } */
-.main a,
+/* .main a,
 footer a {
   transition: 0.3s all cubic-bezier(0.42, 0, 0.57, 1.96);
 }
@@ -243,10 +243,16 @@ footer a {
 .main a:hover {
   color: #000;
   box-shadow: inset 0 -1.3em 0 rgba(100, 100, 100, 0.1);
-}
+} */
+
 /* .main .grid {
   margin-top: 3em;
 } */
+
+.main a:link {
+  text-decoration: underline;
+}
+
 .main > h2:first-child {
   margin-top: 1em;
 }
@@ -492,13 +498,7 @@ ol li > ol li, ul li {
 .-print-only {
   display: none;
 }
-.-print-only p {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-.-print-only h3 {
-  margin: 20px 0 0 0;
-}
+
 
 .lastpublished {
   color: #999;
@@ -539,8 +539,19 @@ ol li > ol li, ul li {
 
 
 @media print {
+
+  .break{
+    margin-bottom: 8em;
+    break-after: page;
+    page-break-after: always;
+  }
+
   .header {
     padding-top: 0;
+  }
+
+  .header p.-text-center{
+    font-size: 0.55rem !important;
   }
 
   .header{
@@ -611,12 +622,18 @@ ol li > ol li, ul li {
   .header,
   .footer {
     width: 100%;
-    max-width: none;
+    max-width: 100%;
   }
 
   .main ol li > ol, .main ul {
     margin-top: 10px;
     margin-left: 0.5em;
+  }
+
+  ol[reversed] p{
+    font-size: 10px;
+    line-height: 1.5;
+    margin-bottom: 20px;
   }
 
   dl dd {
@@ -632,9 +649,10 @@ ol li > ol li, ul li {
   html {
     border-bottom: none;
   }
+
   @page {
     size: A4;
-    margin: 2cm 3cm;
+    margin: 1.5cm 0;
   }
 
   /* .-span-cols-4, .-span-cols-6{
